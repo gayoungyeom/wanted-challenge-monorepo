@@ -18,7 +18,9 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <h1>의존성 테스트 - {sayHello()}</h1>
-        <Button style={{ padding: '12px', fontSize: '24px' }}>@wanted/ui 를 여기서 사용할 수 있다!</Button>
+        <Button variant="contained" style={{ padding: '12px', fontSize: '24px' }}>
+          @wanted/ui 를 여기서 사용할 수 있다!
+        </Button>
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
